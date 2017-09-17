@@ -1,2 +1,139 @@
 ﻿  Multiplayer.cpp
-c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(18): fatal error C1083: Cannot open include file: 'dplay8.h': No such file or directory
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(42): error C3646: 'dpnidPlayer': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(50): error C3646: 'dpnidPlayer': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(58): error C2143: syntax error: missing ';' before '*'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(58): error C2238: unexpected token(s) preceding ';'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(67): error C3646: 'dpnidPlayer': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(67): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(91): error C3646: 'dpnidPlayer': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(181): error C2061: syntax error: identifier 'DPNID'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(182): error C2065: 'DPNID': undeclared identifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(182): error C2146: syntax error: missing ')' before identifier 'dpnidPlayer'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(185): error C2065: 'PDPNMSG_ENUM_HOSTS_RESPONSE': undeclared identifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(185): error C2146: syntax error: missing ')' before identifier 'pEnumHostsResponseMsg'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(188): error C2065: 'DPNID': undeclared identifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(188): error C2146: syntax error: missing ')' before identifier 'dpnidTarget'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(136): error C2143: syntax error: missing ';' before '*'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(136): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(138): error C2143: syntax error: missing ';' before '*'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(138): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(141): error C2143: syntax error: missing ';' before '*'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(141): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(142): error C2143: syntax error: missing ';' before '*'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(142): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(142): error C2086: 'int IDirectPlay8Address': redefinition
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(141): note: see declaration of 'IDirectPlay8Address'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(144): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(144): error C2146: syntax error: missing ';' before identifier 'm_hConnectAsyncOp'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(149): error C2146: syntax error: missing ';' before identifier 'g_ResponseMsgAppDesc'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(297): error C2039: 'dpnidPlayer': is not a member of 'APP_PLAYER_INFO'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayerplus\multiplayer.h(38): note: see declaration of 'APP_PLAYER_INFO'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(305): error C2227: left of '->CancelAsyncOperation' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(305): note: type is 'int *'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(305): error C2065: 'DPNCANCEL_SEND': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(306): error C2227: left of '->Close' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(306): note: type is 'int *'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(306): error C2065: 'DPNCLOSE_IMMEDIATE': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(307): error C2227: left of '->Release' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(307): note: type is 'int *'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(312): error C2227: left of '->CancelAsyncOperation' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(312): note: type is 'int *'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(312): error C2065: 'DPNCANCEL_SEND': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(313): error C2227: left of '->Close' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(313): note: type is 'int *'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(313): error C2065: 'DPNCLOSE_IMMEDIATE': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(314): error C2227: left of '->Release' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(314): note: type is 'int *'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(336): error C2065: 'PDIRECTPLAY8ADDRESS': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(336): error C2146: syntax error: missing ';' before identifier 'pDP8AddrLocal'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(336): error C2065: 'pDP8AddrLocal': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(339): error C2146: syntax error: missing ';' before identifier 'dpnAppDesc'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(339): error C2065: 'dpnAppDesc': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(353): error C2065: 'CLSID_DirectPlay8Server': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(353): error C2065: 'IID_IDirectPlay8Server': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(361): error C2227: left of '->Initialize' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(361): note: type is 'int *'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(369): error C2065: 'CLSID_DirectPlay8Address': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(369): error C2065: 'IID_IDirectPlay8Address': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(369): error C2065: 'pDP8AddrLocal': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(377): error C2065: 'pDP8AddrLocal': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(377): error C2227: left of '->SetSP' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(377): note: type is 'unknown-type'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(377): error C2065: 'CLSID_DP8SP_TCPIP': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(385): error C2065: 'pDP8AddrLocal': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(385): error C2227: left of '->AddComponent' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(385): note: type is 'unknown-type'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(385): error C2065: 'DPNA_KEY_PORT': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(385): error C2065: 'DPNA_DATATYPE_DWORD': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(391): error C2065: 'dpnAppDesc': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(397): error C2065: 'dpnAppDesc': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(397): error C2228: left of '.dwSize' must have class/struct/union
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(397): note: type is 'unknown-type'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(398): error C2065: 'dpnAppDesc': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(398): error C2228: left of '.dwFlags' must have class/struct/union
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(398): note: type is 'unknown-type'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(398): error C2065: 'DPNSESSION_CLIENT_SERVER': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(398): error C2065: 'DPNSESSION_NODPNSVR': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(399): error C2065: 'dpnAppDesc': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(399): error C2228: left of '.guidApplication' must have class/struct/union
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(399): note: type is 'unknown-type'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(400): error C2065: 'dpnAppDesc': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(400): error C2228: left of '.pwszSessionName' must have class/struct/union
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(400): note: type is 'unknown-type'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(405): error C2227: left of '->Host' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(405): note: type is 'int *'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(405): error C2065: 'dpnAppDesc': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(405): error C2065: 'pDP8AddrLocal': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(516): error C2146: syntax error: missing ';' before identifier 'm_hEnumAsyncOp'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(516): error C2065: 'm_hEnumAsyncOp': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(517): error C2146: syntax error: missing ';' before identifier 'dpnAppDesc'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(517): error C2065: 'dpnAppDesc': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(518): error C2065: 'pDP8AddressHost': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(519): error C2065: 'pDP8AddressLocal': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(533): error C2227: left of '->Release' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(533): note: type is 'int *'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(536): error C2065: 'CLSID_DirectPlay8Client': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(536): error C2065: 'IID_IDirectPlay8Client': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(543): error C2227: left of '->Initialize' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(543): note: type is 'int *'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(551): error C2065: 'CLSID_DirectPlay8Address': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(551): error C2065: 'IID_IDirectPlay8Address': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(551): error C2065: 'pDP8AddressLocal': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(559): error C2065: 'pDP8AddressLocal': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(559): error C2227: left of '->SetSP' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(559): note: type is 'unknown-type'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(559): error C2065: 'CLSID_DP8SP_TCPIP': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(567): error C2065: 'CLSID_DirectPlay8Address': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(567): error C2065: 'IID_IDirectPlay8Address': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(567): error C2065: 'pDP8AddressHost': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(575): error C2065: 'pDP8AddressHost': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(575): error C2227: left of '->SetSP' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(575): note: type is 'unknown-type'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(575): error C2065: 'CLSID_DP8SP_TCPIP': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(593): error C2065: 'pDP8AddressHost': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(593): error C2227: left of '->AddComponent' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(593): note: type is 'unknown-type'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(593): error C2065: 'DPNA_KEY_HOSTNAME': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(593): error C2065: 'DPNA_DATATYPE_STRING': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(609): error C2065: 'pDP8AddressHost': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(609): error C2227: left of '->AddComponent' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(609): note: type is 'unknown-type'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(609): error C2065: 'DPNA_KEY_PORT': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(609): error C2065: 'DPNA_DATATYPE_DWORD': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(615): error C2065: 'dpnAppDesc': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(618): error C2065: 'dpnAppDesc': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(618): error C2228: left of '.dwSize' must have class/struct/union
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(618): note: type is 'unknown-type'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(619): error C2065: 'dpnAppDesc': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(619): error C2228: left of '.guidApplication' must have class/struct/union
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(619): note: type is 'unknown-type'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(625): error C2227: left of '->EnumHosts' must point to class/struct/union/generic type
+  ..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(625): note: type is 'int *'
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(625): error C2065: 'dpnAppDesc': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(625): error C2065: 'pDP8AddressHost': undeclared identifier
+..\..\SHARED\MultiplayerPlus\Multiplayer.cpp(625): fatal error C1003: error count exceeds 100; stopping compilation

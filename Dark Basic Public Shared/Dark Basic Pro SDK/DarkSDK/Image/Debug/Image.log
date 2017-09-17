@@ -1,4 +1,40 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Image\..\..\..\..\Install\Compiler\plugins\Image.dll) does not match the Linker's OutputFile property value (C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Install\Compiler\plugins\DBProImageDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+﻿  SteamCheckForWorkshop.cpp
+..\..\Shared\Core\SteamCheckForWorkshop.cpp(36): warning C4018: '<': signed/unsigned mismatch
+  globstruct.cpp
+  Generating Code...
+  CImageC.cpp
+..\..\Shared\Image\CImageC.cpp(610): warning C4838: conversion from 'UINT' to 'LONG' requires a narrowing conversion
+..\..\Shared\Image\CImageC.cpp(848): warning C4018: '<': signed/unsigned mismatch
+..\..\Shared\Image\CImageC.cpp(1857): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+..\..\Shared\Image\CImageC.cpp(1874): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1876): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1878): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1880): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1882): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1894): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1895): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1896): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1898): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1899): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1900): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1902): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1903): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1904): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1906): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1907): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1908): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1910): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1911): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(1912): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\Shared\Image\CImageC.cpp(2271): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+..\..\Shared\Image\CImageC.cpp(2345): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+  CError.cpp
+  DLLMain.cpp
+  Generating Code...
+  DIB.C
+  ICONS.C
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Image\..\..\..\..\Install\Compiler\plugins\Image.dll) does not match the Linker's OutputFile property value (C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Install\Compiler\plugins\DBProImageDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(Image) does not match the Linker's OutputFile property value (DBProImageDebug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
      Creating library .\Debug/DBProImageDebug.lib and object .\Debug/DBProImageDebug.exp
   Image.vcxproj -> C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Image\..\..\..\..\Install\Compiler\plugins\Image.dll

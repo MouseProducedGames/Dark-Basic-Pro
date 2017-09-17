@@ -1,4 +1,81 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\System\..\..\..\..\Install\Compiler\plugins\System.dll) does not match the Linker's OutputFile property value (C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Install\Compiler\plugins\DBProSystemDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+﻿  DLLMain.cpp
+  dxdiaginfo.cpp
+  CSystemC.cpp
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(52937): note: see previous definition of 'DXGI_STATUS_OCCLUDED'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(52946): note: see previous definition of 'DXGI_STATUS_CLIPPED'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(52955): note: see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(52964): note: see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(52973): note: see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(52982): note: see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(52991): note: see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53006): note: see previous definition of 'DXGI_ERROR_INVALID_CALL'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53015): note: see previous definition of 'DXGI_ERROR_NOT_FOUND'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53024): note: see previous definition of 'DXGI_ERROR_MORE_DATA'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53033): note: see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53042): note: see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53051): note: see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53061): note: see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53070): note: see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53080): note: see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53089): note: see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53099): note: see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53108): note: see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53117): note: see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53127): note: see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+c:\stuff\p\programming\sdks\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\winerror.h(53136): note: see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+..\..\Shared\System\CSystemC.cpp(32): warning C4005: '_Field_size_': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\sal.h(590): note: see previous definition of '_Field_size_'
+..\..\Shared\System\CSystemC.cpp(33): warning C4005: '_Field_size_bytes_': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\sal.h(597): note: see previous definition of '_Field_size_bytes_'
+..\..\Shared\System\CSystemC.cpp(34): warning C4005: '_In_reads_bytes_opt_': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\sal.h(319): note: see previous definition of '_In_reads_bytes_opt_'
+..\..\Shared\System\CSystemC.cpp(35): warning C4005: '_Out_writes_bytes_all_opt_': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\sal.h(360): note: see previous definition of '_Out_writes_bytes_all_opt_'
+..\..\Shared\System\CSystemC.cpp(36): warning C4005: '_Field_size_bytes_part_': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\sal.h(599): note: see previous definition of '_Field_size_bytes_part_'
+..\..\Shared\System\CSystemC.cpp(37): warning C4005: '_In_range_': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\sal.h(568): note: see previous definition of '_In_range_'
+..\..\Shared\System\CSystemC.cpp(38): warning C4005: '_Out_writes_bytes_': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\sal.h(347): note: see previous definition of '_Out_writes_bytes_'
+..\..\Shared\System\CSystemC.cpp(39): warning C4005: '_Check_return_': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\sal.h(554): note: see previous definition of '_Check_return_'
+..\..\Shared\System\CSystemC.cpp(40): warning C4005: '_Inout_': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\sal.h(375): note: see previous definition of '_Inout_'
+..\..\Shared\System\CSystemC.cpp(41): warning C4005: '_In_': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\sal.h(305): note: see previous definition of '_In_'
+..\..\Shared\System\CSystemC.cpp(42): warning C4005: '_Out_': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\sal.h(342): note: see previous definition of '_Out_'
+..\..\Shared\System\CSystemC.cpp(43): warning C4005: 'NTDDI_VERSION': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\sdkddkver.h(223): note: see previous definition of 'NTDDI_VERSION'
+..\..\Shared\System\CSystemC.cpp(283): warning C4101: 'pGPI': unreferenced local variable
+..\..\Shared\System\CSystemC.cpp(285): warning C4101: 'dwType': unreferenced local variable
+..\..\Shared\System\CSystemC.cpp(406): warning C4244: '=': conversion from 'LONGLONG' to 'int', possible loss of data
+  CError.cpp
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\System\..\..\..\..\Install\Compiler\plugins\System.dll) does not match the Linker's OutputFile property value (C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Install\Compiler\plugins\DBProSystemDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(System) does not match the Linker's OutputFile property value (DBProSystemDebug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library .\Debug/DBProSystemDebug.lib and object .\Debug/DBProSystemDebug.exp
   System.vcxproj -> C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\System\..\..\..\..\Install\Compiler\plugins\System.dll
   System.vcxproj -> .\Debug/DBProSystemDebug.pdb (Full PDB)

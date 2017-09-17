@@ -1,6 +1,6 @@
  DarkEXE
 
- Timestamp is 59bef127 (Sun Sep 17 15:03:19 2017)
+ Timestamp is 59bf014b (Sun Sep 17 16:12:11 2017)
 
  Preferred load address is 00400000
 
@@ -6658,42 +6658,42 @@
  0002:000004f0       $SG141583                  004864f0     DarkEXE.obj
  0002:00000584       $SG141584                  00486584     DarkEXE.obj
  0002:000005a0       $SG141586                  004865a0     DarkEXE.obj
- 0002:000005a4       $SG115925                  004865a4     FileReader.obj
- 0002:000005b2       $SG116213                  004865b2     FileReader.obj
- 0002:000005b4       $SG115957                  004865b4     FileReader.obj
- 0002:000005bc       $SG116027                  004865bc     FileReader.obj
- 0002:000005cc       $SG116030                  004865cc     FileReader.obj
- 0002:000005dc       $SG116031                  004865dc     FileReader.obj
- 0002:000005f0       $SG116039                  004865f0     FileReader.obj
- 0002:000005f8       $SG116040                  004865f8     FileReader.obj
- 0002:00000618       $SG116105                  00486618     FileReader.obj
- 0002:00000620       $SG116106                  00486620     FileReader.obj
- 0002:00000624       $SG116110                  00486624     FileReader.obj
- 0002:0000062c       $SG116111                  0048662c     FileReader.obj
- 0002:00000630       $SG116185                  00486630     FileReader.obj
- 0002:00000644       $SG116206                  00486644     FileReader.obj
- 0002:00000654       $SG116207                  00486654     FileReader.obj
- 0002:00000660       $SG122884                  00486660     getdxver.obj
- 0002:0000066d       $SG122314                  0048666d     getdxver.obj
- 0002:00000670       $SG122890                  00486670     getdxver.obj
- 0002:0000067c       $SG122904                  0048667c     getdxver.obj
- 0002:00000688       $SG122910                  00486688     getdxver.obj
- 0002:00000694       $SG122916                  00486694     getdxver.obj
- 0002:000006a0       $SG122922                  004866a0     getdxver.obj
- 0002:000006ac       $SG122930                  004866ac     getdxver.obj
- 0002:000006b8       $SG122944                  004866b8     getdxver.obj
- 0002:000006c8       $SG122950                  004866c8     getdxver.obj
- 0002:000006d4       $SG122958                  004866d4     getdxver.obj
- 0002:000006e0       $SG122990                  004866e0     getdxver.obj
- 0002:000006e4       $SG122328                  004866e4     getdxver.obj
- 0002:000006e8       $SG122751                  004866e8     getdxver.obj
- 0002:000006f8       $SG122761                  004866f8     getdxver.obj
- 0002:00000700       $SG122762                  00486700     getdxver.obj
- 0002:00000708       $SG122797                  00486708     getdxver.obj
- 0002:0000072c       $SG122799                  0048672c     getdxver.obj
- 0002:00000758       $SG122802                  00486758     getdxver.obj
- 0002:00000784       $SG122805                  00486784     getdxver.obj
- 0002:000007b4       $SG122870                  004867b4     getdxver.obj
+ 0002:000005a4       $SG115923                  004865a4     FileReader.obj
+ 0002:000005b2       $SG116211                  004865b2     FileReader.obj
+ 0002:000005b4       $SG115955                  004865b4     FileReader.obj
+ 0002:000005bc       $SG116025                  004865bc     FileReader.obj
+ 0002:000005cc       $SG116028                  004865cc     FileReader.obj
+ 0002:000005dc       $SG116029                  004865dc     FileReader.obj
+ 0002:000005f0       $SG116037                  004865f0     FileReader.obj
+ 0002:000005f8       $SG116038                  004865f8     FileReader.obj
+ 0002:00000618       $SG116103                  00486618     FileReader.obj
+ 0002:00000620       $SG116104                  00486620     FileReader.obj
+ 0002:00000624       $SG116108                  00486624     FileReader.obj
+ 0002:0000062c       $SG116109                  0048662c     FileReader.obj
+ 0002:00000630       $SG116183                  00486630     FileReader.obj
+ 0002:00000644       $SG116204                  00486644     FileReader.obj
+ 0002:00000654       $SG116205                  00486654     FileReader.obj
+ 0002:00000660       $SG122882                  00486660     getdxver.obj
+ 0002:0000066d       $SG122312                  0048666d     getdxver.obj
+ 0002:00000670       $SG122888                  00486670     getdxver.obj
+ 0002:0000067c       $SG122902                  0048667c     getdxver.obj
+ 0002:00000688       $SG122908                  00486688     getdxver.obj
+ 0002:00000694       $SG122914                  00486694     getdxver.obj
+ 0002:000006a0       $SG122920                  004866a0     getdxver.obj
+ 0002:000006ac       $SG122928                  004866ac     getdxver.obj
+ 0002:000006b8       $SG122942                  004866b8     getdxver.obj
+ 0002:000006c8       $SG122948                  004866c8     getdxver.obj
+ 0002:000006d4       $SG122956                  004866d4     getdxver.obj
+ 0002:000006e0       $SG122988                  004866e0     getdxver.obj
+ 0002:000006e4       $SG122326                  004866e4     getdxver.obj
+ 0002:000006e8       $SG122749                  004866e8     getdxver.obj
+ 0002:000006f8       $SG122759                  004866f8     getdxver.obj
+ 0002:00000700       $SG122760                  00486700     getdxver.obj
+ 0002:00000708       $SG122795                  00486708     getdxver.obj
+ 0002:0000072c       $SG122797                  0048672c     getdxver.obj
+ 0002:00000758       $SG122800                  00486758     getdxver.obj
+ 0002:00000784       $SG122803                  00486784     getdxver.obj
+ 0002:000007b4       $SG122868                  004867b4     getdxver.obj
  0002:000015d0       $SG152273                  004875d0     EXEBlock.obj
  0002:000015d1       $SG152274                  004875d1     EXEBlock.obj
  0002:000015d2       $SG152275                  004875d2     EXEBlock.obj

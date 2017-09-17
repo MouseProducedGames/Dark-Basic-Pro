@@ -1,7 +1,203 @@
 ﻿  CMultiplayerC.cpp
-c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(10): fatal error C1083: Cannot open include file: 'dplay.h': No such file or directory
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\netqueue.h(23): error C3646: 'idFrom': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\netqueue.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\netqueue.h(24): error C3646: 'idTo': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\netqueue.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(66): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(66): error C2146: syntax error: missing ';' before identifier 'netPlayersID'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(91): error C3646: 'CreatePlayer': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(91): error C2059: syntax error: '('
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(91): error C2238: unexpected token(s) preceding ';'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(92): error C2061: syntax error: identifier 'DPID'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(101): error C2061: syntax error: identifier 'DPID'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(103): error C3646: 'GetLocalPlayerDPID': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(103): error C2059: syntax error: '('
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(103): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(104): error C3646: 'GetServerPlayerDPID': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(104): error C2059: syntax error: '('
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(104): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(120): error C3646: 'm_LocalPlayerDPID': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(120): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(123): error C3646: 'm_pDP': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(123): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(132): error C2061: syntax error: identifier 'DPMSG_GENERIC'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(133): error C2061: syntax error: identifier 'DPMSG_GENERIC'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(136): error C2061: syntax error: identifier 'LPCDPNAME'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(137): error C2061: syntax error: identifier 'LPCDPSESSIONDESC2'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(138): error C2061: syntax error: identifier 'DPID'
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(283): error C2065: 'DPID_ALLPLAYERS': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(399): error C2065: 'DPSESSION_MIGRATEHOST': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(448): error C2065: 'DPSESSION_MIGRATEHOST': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(449): error C2065: 'DPSESSION_CLIENTSERVER': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(737): error C2146: syntax error: missing ';' before identifier 'dpids'
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(737): error C2065: 'dpids': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(739): error C2065: 'dpids': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(751): error C2065: 'dpids': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(772): error C2065: 'dpids': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(774): error C2065: 'dpids': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(777): error C2065: 'dpids': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(777): error C2039: 'GetLocalPlayerDPID': is not a member of 'CNetwork'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(81): note: see declaration of 'CNetwork'
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(778): error C2065: 'dpids': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(778): error C2039: 'GetServerPlayerDPID': is not a member of 'CNetwork'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(81): note: see declaration of 'CNetwork'
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(876): error C2039: 'CreatePlayer': is not a member of 'CNetwork'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(81): note: see declaration of 'CNetwork'
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(888): error C2039: 'CreatePlayer': is not a member of 'CNetwork'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(81): note: see declaration of 'CNetwork'
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(911): error C2660: 'CNetwork::DestroyPlayer': function does not take 1 arguments
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(1073): error C2039: 'idFrom': is not a member of 'QueuePacketStruct'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\NetQueue.h(21): note: see declaration of 'QueuePacketStruct'
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(1074): error C2039: 'idTo': is not a member of 'QueuePacketStruct'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\NetQueue.h(21): note: see declaration of 'QueuePacketStruct'
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(1440): error C2039: 'm_LocalPlayerDPID': is not a member of 'CNetwork'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(81): note: see declaration of 'CNetwork'
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(1446): error C2146: syntax error: missing ';' before identifier 'dpids'
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(1446): error C2065: 'dpids': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(1448): error C2065: 'dpids': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(1449): error C2065: 'dpids': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(1452): error C2039: 'm_LocalPlayerDPID': is not a member of 'CNetwork'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(81): note: see declaration of 'CNetwork'
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(1452): error C2065: 'dpids': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(1453): error C2065: 'dpids': undeclared identifier
+..\..\Shared\Multiplayer\CMultiplayerC.cpp(1456): error C2039: 'm_LocalPlayerDPID': is not a member of 'CNetwork'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\CNetwork.h(81): note: see declaration of 'CNetwork'
   CNetwork.cpp
-c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(10): fatal error C1083: Cannot open include file: 'dplay.h': No such file or directory
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\netqueue.h(23): error C3646: 'idFrom': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\netqueue.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\netqueue.h(24): error C3646: 'idTo': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\netqueue.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(66): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(66): error C2146: syntax error: missing ';' before identifier 'netPlayersID'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(91): error C3646: 'CreatePlayer': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(91): error C2059: syntax error: '('
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(91): error C2238: unexpected token(s) preceding ';'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(92): error C2061: syntax error: identifier 'DPID'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(101): error C2061: syntax error: identifier 'DPID'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(103): error C3646: 'GetLocalPlayerDPID': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(103): error C2059: syntax error: '('
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(103): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(104): error C3646: 'GetServerPlayerDPID': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(104): error C2059: syntax error: '('
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(104): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(120): error C3646: 'm_LocalPlayerDPID': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(120): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(123): error C3646: 'm_pDP': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(123): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(132): error C2061: syntax error: identifier 'DPMSG_GENERIC'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(133): error C2061: syntax error: identifier 'DPMSG_GENERIC'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(136): error C2061: syntax error: identifier 'LPCDPNAME'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(137): error C2061: syntax error: identifier 'LPCDPSESSIONDESC2'
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\cnetwork.h(138): error C2061: syntax error: identifier 'DPID'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(27): error C2146: syntax error: missing ';' before identifier 'netPlayersID'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(54): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(55): error C2065: 'm_LocalPlayerDPID': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(71): error C2065: 'CLSID_DirectPlay': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(71): error C2065: 'IID_IDirectPlay4A': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(71): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(78): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(80): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(80): error C2227: left of '->EnumConnections' must point to class/struct/union/generic type
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(80): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(80): error C2065: 'LPDPENUMCONNECTIONSCALLBACK': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(80): error C2146: syntax error: missing ')' before identifier 'StaticGetConnection'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(80): error C2059: syntax error: ')'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(144): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(146): error C2065: 'm_LocalPlayerDPID': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(148): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(148): error C2227: left of '->DestroyPlayer' must point to class/struct/union/generic type
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(148): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(148): error C2065: 'm_LocalPlayerDPID': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(149): error C2065: 'm_LocalPlayerDPID': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(151): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(151): error C2227: left of '->Close' must point to class/struct/union/generic type
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(151): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(156): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(156): error C2227: left of '->Release' must point to class/struct/union/generic type
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(156): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(185): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(195): error C2065: 'DPSPGUID_IPX': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(196): error C2065: 'DPSPGUID_TCPIP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(202): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(202): error C2227: left of '->InitializeConnection' must point to class/struct/union/generic type
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(202): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(220): error C2065: 'DPSESSIONDESC2': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(220): error C2146: syntax error: missing ';' before identifier 'dpsd'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(220): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(221): error C2065: 'DPNAME': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(221): error C2146: syntax error: missing ';' before identifier 'dpname'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(221): error C2065: 'dpname': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(223): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(224): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(224): error C2228: left of '.dwSize' must have class/struct/union
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(224): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(225): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(225): error C2228: left of '.guidApplication' must have class/struct/union
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(225): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(226): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(226): error C2228: left of '.lpszSessionNameA' must have class/struct/union
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(226): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(227): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(227): error C2228: left of '.dwMaxPlayers' must have class/struct/union
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(227): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(228): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(228): error C2228: left of '.dwFlags' must have class/struct/union
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(228): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(228): error C2065: 'DPSESSION_DIRECTPLAYPROTOCOL': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(229): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(229): error C2227: left of '->Open' must point to class/struct/union/generic type
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(229): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(229): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(229): error C2065: 'DPOPEN_CREATE': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(231): error C2065: 'DPERR_ALREADYINITIALIZED': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(232): error C2065: 'DPERR_CANTCREATEPLAYER': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(233): error C2065: 'DPERR_TIMEOUT': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(234): error C2065: 'DPERR_USERCANCEL': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(235): error C2065: 'DPERR_NOSESSIONS': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(239): error C2065: 'dpname': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(239): error C2065: 'DPNAME': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(240): error C2065: 'dpname': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(240): error C2228: left of '.dwSize' must have class/struct/union
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(240): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(240): error C2065: 'DPNAME': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(241): error C2065: 'dpname': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(241): error C2228: left of '.lpszShortNameA' must have class/struct/union
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(241): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(243): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(249): error C2065: 'm_pDP': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(249): error C2227: left of '->CreatePlayer' must point to class/struct/union/generic type
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(249): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(249): error C2065: 'm_LocalPlayerDPID': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(249): error C2065: 'dpname': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(249): error C2065: 'DPPLAYER_SERVERPLAYER': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(265): error C2065: 'DPSESSIONDESC2': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(265): error C2146: syntax error: missing ';' before identifier 'dpsd'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(265): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(266): error C2065: 'DPNAME': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(266): error C2146: syntax error: missing ';' before identifier 'dpname'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(266): error C2065: 'dpname': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(268): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(269): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(269): error C2228: left of '.dwSize' must have class/struct/union
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(269): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(270): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(270): error C2228: left of '.guidApplication' must have class/struct/union
+  ..\..\Shared\Multiplayer\Network\CNetwork.cpp(270): note: type is 'unknown-type'
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(271): error C2065: 'dpsd': undeclared identifier
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(271): error C2228: left of '.dwFlags' must have class/struct/union
+..\..\Shared\Multiplayer\Network\CNetwork.cpp(271): fatal error C1003: error count exceeds 100; stopping compilation
   NetQueue.cpp
-c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\NetQueue.h(3): fatal error C1083: Cannot open include file: 'dplay.h': No such file or directory
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\NetQueue.h(23): error C3646: 'idFrom': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\NetQueue.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\NetQueue.h(24): error C3646: 'idTo': unknown override specifier
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\NetQueue.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+..\..\Shared\Multiplayer\Network\NetQueue.cpp(71): error C2039: 'idFrom': is not a member of 'QueuePacketStruct'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\NetQueue.h(21): note: see declaration of 'QueuePacketStruct'
+..\..\Shared\Multiplayer\Network\NetQueue.cpp(72): error C2039: 'idTo': is not a member of 'QueuePacketStruct'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\NetQueue.h(21): note: see declaration of 'QueuePacketStruct'
+..\..\Shared\Multiplayer\Network\NetQueue.cpp(100): error C2039: 'idFrom': is not a member of 'QueuePacketStruct'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\NetQueue.h(21): note: see declaration of 'QueuePacketStruct'
+..\..\Shared\Multiplayer\Network\NetQueue.cpp(101): error C2039: 'idTo': is not a member of 'QueuePacketStruct'
+  c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dark basic pro sdk\shared\multiplayer\network\NetQueue.h(21): note: see declaration of 'QueuePacketStruct'
   Generating Code...

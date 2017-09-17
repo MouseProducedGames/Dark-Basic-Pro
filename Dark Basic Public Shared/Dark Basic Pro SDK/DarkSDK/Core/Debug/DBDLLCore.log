@@ -1,4 +1,24 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Core\..\..\..\..\Install\Compiler\plugins\DBDLLCore.dll) does not match the Linker's OutputFile property value (C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Install\Compiler\plugins\DBProCore.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+﻿  DBDLLCore.cpp
+  DBDLLCoreInternal.cpp
+  DBDLLDisplay.cpp
+  DBDLLEXT.cpp
+  DBDLLExtCalls.cpp
+  DBDLLGDI.cpp
+  globstruct.cpp
+  Encryptor.cpp
+c:\users\lrgmo\documents\github\dark-basic-pro\dark basic public shared\dbpcompiler\Encryptor.h(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+..\..\..\DBPCompiler\Encryptor.cpp(29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+  CError.cpp
+  Generating Code...
+  RenderList.cpp
+  SteamCheckForWorkshop.cpp
+..\..\Shared\Core\SteamCheckForWorkshop.cpp(36): warning C4018: '<': signed/unsigned mismatch
+  DarkMemoryManager.cpp
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Core\..\..\..\..\Install\Compiler\plugins\DBDLLCore.dll) does not match the Linker's OutputFile property value (C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Install\Compiler\plugins\DBProCore.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(DBDLLCore) does not match the Linker's OutputFile property value (DBProCore). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library .\Debug/DBProCore.lib and object .\Debug/DBProCore.exp
   DBDLLCore.vcxproj -> C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Core\..\..\..\..\Install\Compiler\plugins\DBDLLCore.dll
   DBDLLCore.vcxproj -> .\Debug/DBProCore.pdb (Full PDB)
