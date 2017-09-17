@@ -4,10 +4,10 @@
 #pragma comment ( lib, "dxguid.lib" )
 #pragma comment ( lib, "d3d9.lib"   )
 #pragma comment ( lib, "d3dx9.lib"  )
-#pragma comment ( lib, "dxerr9.lib" )
+#pragma comment ( lib, "DxErr.lib" )
 
 #include <d3d9.h>
-#include <Dxerr9.h>
+#include <DxErr.h>
 #include <D3dx9tex.h>
 #include <D3dx9core.h>
 #include <basetsd.h>
@@ -16,8 +16,8 @@
 #include <D3DX9.h>
 #include <d3d9types.h>
 
-#define WIN32_LEAN_AND_MEAN 
-#include <windows.h>   
+#define WIN32_LEAN_AND_MEAN
+#include <windows.h>
 #include <windowsx.h>
 
 #define DARKSDK __declspec ( dllexport )
@@ -40,51 +40,46 @@ extern float				MULT_SCALE;
 
 class CMode
 {
-	protected:
-		LPDIRECT3DDEVICE9	m_pD3D;
-		unsigned char*		m_pData;
+protected:
+	LPDIRECT3DDEVICE9	m_pD3D;
+	unsigned char*		m_pData;
 
-	public:
-		void SetDevice ( LPDIRECT3DDEVICE9 lpD3D )
-		{
-			// get a pointer to d3d device
-			m_pD3D = lpD3D;
-		}
+public:
+	void SetDevice(LPDIRECT3DDEVICE9 lpD3D)
+	{
+		// get a pointer to d3d device
+		m_pD3D = lpD3D;
+	}
 
-		virtual void Setup ( void )
-		{
-		
-		};
+	virtual void Setup(void)
+	{
+	};
 
-		virtual void Destroy ( void )
-		{
-		
-		};
+	virtual void Destroy(void)
+	{
+	};
 
-		virtual void Reset ( void )
-		{
-			
-		};
+	virtual void Reset(void)
+	{
+	};
 
-		virtual void Draw ( float fX, float fY, float fZ )
-		{
-		
-		};
+	virtual void Draw(float fX, float fY, float fZ)
+	{
+	};
 
-		virtual void SetTextureDivide ( float fX, float fY )
-		{
+	virtual void SetTextureDivide(float fX, float fY)
+	{
+	}
 
-		}
+	virtual void SetData(unsigned char* pData)
+	{
+		m_pData = pData;
+	};
 
-		virtual void SetData ( unsigned char* pData )
-		{
-			m_pData = pData;
-		};
-
-		virtual unsigned char* GetData ( void )
-		{
-			return m_pData;
-		};
+	virtual unsigned char* GetData(void)
+	{
+		return m_pData;
+	};
 };
 
 #endif _CMODE_H_
