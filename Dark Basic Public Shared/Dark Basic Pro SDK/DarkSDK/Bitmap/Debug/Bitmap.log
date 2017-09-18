@@ -1,18 +1,1 @@
-﻿  SteamCheckForWorkshop.cpp
-..\..\Shared\Core\SteamCheckForWorkshop.cpp(36): warning C4018: '<': signed/unsigned mismatch
-  DLLMain.cpp
-  CError.cpp
-  CBitmapC.cpp
-..\..\Shared\Bitmap\CBitmapC.cpp(532): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
-..\..\Shared\Bitmap\CBitmapC.cpp(573): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
-..\..\Shared\Bitmap\CBitmapC.cpp(708): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
-..\..\Shared\Bitmap\CBitmapC.cpp(712): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
-..\..\Shared\Bitmap\CBitmapC.cpp(804): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
-..\..\Shared\Bitmap\CBitmapC.cpp(926): warning C4838: conversion from 'UINT' to 'LONG' requires a narrowing conversion
-..\..\Shared\Bitmap\CBitmapC.cpp(944): warning C4838: conversion from 'UINT' to 'LONG' requires a narrowing conversion
-  Generating Code...
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Bitmap\..\..\..\..\Install\Compiler\plugins\Bitmap.dll) does not match the Linker's OutputFile property value (C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Install\Compiler\plugins\DBProBitmapDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(Bitmap) does not match the Linker's OutputFile property value (DBProBitmapDebug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-     Creating library .\Debug/DBProBitmapDebug.lib and object .\Debug/DBProBitmapDebug.exp
-  Bitmap.vcxproj -> C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Bitmap\..\..\..\..\Install\Compiler\plugins\Bitmap.dll
-  Bitmap.vcxproj -> .\Debug/DBProBitmapDebug.pdb (Full PDB)
+﻿

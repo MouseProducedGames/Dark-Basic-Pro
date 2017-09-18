@@ -1,14 +1,1 @@
-﻿  CEnhancedMatrixC.cpp
-  CEnhancedMatrixManagerC.cpp
-  CModeC.cpp
-  CQuadTreesC.cpp
-  CDataC.cpp
-  CPositionC.cpp
-  CError.cpp
-  DLLMain.cpp
-  Generating Code...
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\AdvancedMatrix\..\..\..\..\Install\Compiler\plugins\AdvancedMatrix.dll) does not match the Linker's OutputFile property value (C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Install\Compiler\plugins\DBProAdvancedMatrixDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(AdvancedMatrix) does not match the Linker's OutputFile property value (DBProAdvancedMatrixDebug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-     Creating library .\Debug/DBProLODTerrainDebug.lib and object .\Debug/DBProLODTerrainDebug.exp
-  AdvancedMatrix.vcxproj -> C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\AdvancedMatrix\..\..\..\..\Install\Compiler\plugins\AdvancedMatrix.dll
-  AdvancedMatrix.vcxproj -> .\Debug/DBProLODTerrainDebug.pdb (Full PDB)
+﻿

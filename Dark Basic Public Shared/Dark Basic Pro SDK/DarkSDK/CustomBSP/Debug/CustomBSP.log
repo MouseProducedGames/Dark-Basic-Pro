@@ -1,13 +1,1 @@
-﻿cl : Command line warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
-  CError.cpp
-  CCustomBSPC.cpp
-  CCollisionManager.cpp
-  Collision.cpp
-..\..\Shared\CustomBSP\Collision.cpp(256): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  DLLMain.cpp
-  Generating Code...
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\CustomBSP\..\..\..\..\Install\Compiler\plugins\CustomBSP.dll) does not match the Linker's OutputFile property value (C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Install\Compiler\plugins\DBProCustomBSPDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(CustomBSP) does not match the Linker's OutputFile property value (DBProCustomBSPDebug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-     Creating library .\Debug/DBProOwnBSPDebug.lib and object .\Debug/DBProOwnBSPDebug.exp
-  CustomBSP.vcxproj -> C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\CustomBSP\..\..\..\..\Install\Compiler\plugins\CustomBSP.dll
-  CustomBSP.vcxproj -> .\Debug/DBProOwnBSPDebug.pdb (Full PDB)
+﻿

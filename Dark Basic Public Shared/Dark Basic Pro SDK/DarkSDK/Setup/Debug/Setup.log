@@ -1,11 +1,1 @@
-﻿  CError.cpp
-  CGfxC.cpp
-..\..\Shared\Setup\CGfxC.cpp(1766): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
-  DLLMain.cpp
-  globstruct.cpp
-  Generating Code...
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Setup\..\..\..\..\Install\Compiler\plugins\Setup.dll) does not match the Linker's OutputFile property value (C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Install\Compiler\plugins\DBProSetupDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(Setup) does not match the Linker's OutputFile property value (DBProSetupDebug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-     Creating library .\Debug/DBProSetupDebug.lib and object .\Debug/DBProSetupDebug.exp
-  Setup.vcxproj -> C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Setup\..\..\..\..\Install\Compiler\plugins\Setup.dll
-  Setup.vcxproj -> .\Debug/DBProSetupDebug.pdb (Full PDB)
+﻿

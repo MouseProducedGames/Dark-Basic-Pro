@@ -1,9 +1,1 @@
-﻿  CBasic2DC.cpp
-  CError.cpp
-  DLLMain.cpp
-  Generating Code...
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Basic2D\..\..\..\..\Install\Compiler\plugins\Basic2D.dll) does not match the Linker's OutputFile property value (C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Install\Compiler\plugins\DBProBasic2DDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(Basic2D) does not match the Linker's OutputFile property value (DBProBasic2DDebug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-     Creating library .\Debug/DBProBasic2DDebug.lib and object .\Debug/DBProBasic2DDebug.exp
-  Basic2D.vcxproj -> C:\Users\lrgmo\Documents\GitHub\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Basic2D\..\..\..\..\Install\Compiler\plugins\Basic2D.dll
-  Basic2D.vcxproj -> .\Debug/DBProBasic2DDebug.pdb (Full PDB)
+﻿
